@@ -1,0 +1,13 @@
+public class Forest{
+  
+  private Picture display;
+  
+  public Forest(){
+    display = new Picture("G:/Dokument/Java/MooseHunt/forest.jpg");
+    display.show();
+  }
+  
+  public Picture getDisplay(){
+    return display;
+  }
+}
